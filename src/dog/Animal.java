@@ -1,7 +1,8 @@
 package dog;
 
 public class Animal {
-    public void eat(eating) {
+    public void eat() {
+        System.out.println("eating...");
 
     }
 }

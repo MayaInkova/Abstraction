@@ -1,14 +1,18 @@
 package dog;
 
 public class Main {
-    Puppy puppy = new Puppy();
+    public static void main(String[] args) {
 
-    dog.eat();
-    dog.bark();
+        Puppy puppy = new Puppy();
 
-    Cat cat = new Cat();
+        puppy.eat();
+        puppy.bark();
+        puppy.weep();
 
-    cat.meau();
-    cat.eat();
+        Cat cat = new Cat();
 
+        cat.meua();
+        cat.eat();
+
+    }
 }
